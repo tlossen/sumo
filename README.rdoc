@@ -54,10 +54,11 @@ Optional config you can include any of the following in your config.yml:
 
     user: root
     ami: ami-ed46a784
-     availability_zone: us-east-1b
+    instance_size: m1.small
+    availability_zone: us-east-1b
     cookbooks_url: git://github.com/adamwiggins/chef-cookbooks.git
 
-You'll need Bacon and Mocha if you want to run the specs, and Jewler if you want to create gems.
+You'll need Bacon and Mocha if you want to run the specs, and Jeweler if you want to create gems.
 
 == Managing volumes
 
