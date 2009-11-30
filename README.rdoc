@@ -86,7 +86,7 @@ Log in to format and mount the volume:
 
 To detach from a running instance (perhaps so you can attach elsewhere):
 
-   $ sumo detatch
+   $ sumo detach
    ---> Detach vol-8a9c6ae3...   done (0.6s)
 
 Destroy it if you no longer want the data stored on it:
