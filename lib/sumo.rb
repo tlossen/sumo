@@ -17,7 +17,7 @@ class Sumo
 			:image_id => ami,
 			:instance_type => config['instance_size'] || 'm1.small',
 			:key_name => 'sumo',
-			:group_id => [ 'sumo' ],
+			:security_group => [ 'sumo' ],
 			:availability_zone => config['availability_zone']
 		)
 		result.instancesSet.item[0].instanceId
